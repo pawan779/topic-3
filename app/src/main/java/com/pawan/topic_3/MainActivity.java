@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         String country[]={"Nepal","India","China"};
-        final ArrayAdapter adapter=new ArrayAdapter<>(
+        ArrayAdapter adapter=new ArrayAdapter<>(
                 this,android.R.layout.simple_list_item_1,country
                 );
         spCountry.setAdapter(adapter);
